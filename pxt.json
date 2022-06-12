@@ -1,11 +1,12 @@
 {
-    "name": "Control Celular Prueba 1",
+    "name": "Control Celular Prueba 9",
     "description": "",
     "dependencies": {
         "core": "*",
         "microphone": "*",
         "bluetooth": "*",
-        "servo": "*"
+        "servo": "*",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.3.8"
     },
     "files": [
         "main.blocks",
