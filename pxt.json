@@ -1,10 +1,11 @@
 {
-    "name": "Control Celular",
+    "name": "Control Celular Prueba 1",
     "description": "",
     "dependencies": {
         "core": "*",
         "microphone": "*",
-        "bluetooth": "*"
+        "bluetooth": "*",
+        "servo": "*"
     },
     "files": [
         "main.blocks",
