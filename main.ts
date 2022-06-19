@@ -137,16 +137,16 @@ basic.forever(function () {
             robotbit.Servo(robotbit.Servos.S1, Posicion1)
         }
         if (PIN == 1) {
-            Posicion1 += -2
-            robotbit.Servo(robotbit.Servos.S2, Posicion1)
+            Posicion2 += -2
+            robotbit.Servo(robotbit.Servos.S2, Posicion2)
         }
         if (PIN == 2) {
-            Posicion1 += -2
-            robotbit.Servo(robotbit.Servos.S3, Posicion1)
+            Posicion3 += -2
+            robotbit.Servo(robotbit.Servos.S3, Posicion3)
         }
         if (PIN == 3) {
-            Posicion1 += -2
-            robotbit.Servo(robotbit.Servos.S4, Posicion1)
+            Posicion4 += -2
+            robotbit.Servo(robotbit.Servos.S4, Posicion4)
         }
     }
 })
@@ -157,16 +157,16 @@ basic.forever(function () {
             robotbit.Servo(robotbit.Servos.S1, Posicion1)
         }
         if (PIN == 1) {
-            Posicion1 += 2
-            robotbit.Servo(robotbit.Servos.S2, Posicion1)
+            Posicion2 += 2
+            robotbit.Servo(robotbit.Servos.S2, Posicion2)
         }
         if (PIN == 2) {
-            Posicion1 += 2
-            robotbit.Servo(robotbit.Servos.S3, Posicion1)
+            Posicion3 += 2
+            robotbit.Servo(robotbit.Servos.S3, Posicion3)
         }
         if (PIN == 3) {
-            Posicion1 += 2
-            robotbit.Servo(robotbit.Servos.S4, Posicion1)
+            Posicion4 += 2
+            robotbit.Servo(robotbit.Servos.S4, Posicion4)
         }
     }
 })
